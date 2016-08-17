@@ -1,0 +1,196 @@
+{
+    "id": "root",
+    "x": 0,
+    "y": 0,
+    "children": [{
+        "id": "g0",
+        "labels": [ { "text": "g0" } ],
+        "width": 10,
+        "height": 10,
+        "x": 0,
+        "y": 0,
+        "children": [{
+            "id": "n1",
+            "labels": [ { "text": "n1" } ],
+            "width": 10, "height": 10
+        },{
+            "id": "n2",
+            "labels": [ { "text": "n2" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n3",
+            "labels": [ { "text": "n3" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n4",
+            "labels": [ { "text": "n4" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n5",
+            "labels": [ { "text": "n5" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n6",
+            "labels": [ { "text": "n6" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n7",
+            "labels": [ { "text": "n7" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n8",
+            "labels": [ { "text": "n8" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n9",
+            "labels": [ { "text": "n9" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n10",
+            "labels": [ { "text": "n10" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n11",
+            "labels": [ { "text": "n11" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n12",
+            "labels": [ { "text": "n12" } ],
+            "width": 10, "height": 10
+            
+        },{
+            "id": "n13",
+            "labels": [ { "text": "n13" } ],
+            "width": 10, "height": 10
+            
+        }],
+        "edges": [{
+            "id": "e0",
+            "source": "n1",
+            "target": "n3",
+            "labels": [ {"text": "e0"} ]
+        },{
+            "id": "e1",
+            "source": "n1",
+            "target": "n4",
+            "labels": [ {"text": "e1"} ]
+        },{
+            "id": "e2",
+            "source": "n1",
+            "target": "n5",
+            "labels": [ {"text": "e2"} ]
+        },
+
+        {
+            "id": "e3",
+            "source": "n2",
+            "target": "n3",
+            "labels": [ {"text": "e3"} ]
+        },
+
+        {
+            "id": "e4",
+            "source": "n3",
+            "target": "n7",
+            "labels": [ {"text": "e4"} ]
+        },
+
+        {
+            "id": "e5",
+            "source": "n4",
+            "target": "n5",
+            "labels": [ {"text": "e5"} ]
+        },
+
+        {
+            "id": "e6",
+            "source": "n5",
+            "target": "n13",
+            "labels": [ {"text": "e6"} ]
+        },
+
+        {
+            "id": "e7",
+            "source": "n6",
+            "target": "n3",
+            "labels": [ {"text": "e7"} ]
+        },
+
+        {
+            "id": "e8",
+            "source": "n7",
+            "target": "n8",
+            "labels": [ {"text": "e8"} ]
+        },
+
+        {
+            "id": "e9",
+            "source": "n8",
+            "target": "n9",
+            "labels": [ {"text": "e9"} ]
+        },
+
+        {
+            "id": "e10",
+            "source": "n10",
+            "target": "n2",
+            "labels": [ {"text": "e10"} ]
+        },{
+            "id": "e11",
+            "source": "n10",
+            "target": "n8",
+            "labels": [ {"text": "e11"} ]
+        },{
+            "id": "e12",
+            "source": "n10",
+            "target": "n9",
+            "labels": [ {"text": "e12"} ]
+        },
+
+        {
+            "id": "e13",
+            "source": "n11",
+            "target": "n5",
+            "labels": [ {"text": "e13"} ]
+        },{
+            "id": "e14",
+            "source": "n11",
+            "target": "n13",
+            "labels": [ {"text": "e14"} ]
+        },
+
+        {
+            "id": "e15",
+            "source": "n13",
+            "target": "n12",
+            "labels": [ {"text": "e12"} ]
+        }
+        ]
+    },{
+        "id": "g1",
+        "labels": [ { "text": "g1" } ],
+        "width": 10,
+        "height": 10,
+        "x": 50,
+        "y": 180,
+        "properties": {
+            "de.cau.cs.kieler.position": "50, 180"
+        }
+    }],
+    "edges": [{
+        "id": "e16",
+        "source": "g0",
+        "target": "g1",
+        "labels": [ {"text": "e16"} ]
+    }]
+}

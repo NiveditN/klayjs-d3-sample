@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)http://openkieler.github.io/klayjs-d3/examples/interactive/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <script type="text/javascript" src="lib/d3.js"></script>
+  <script type="text/javascript" src="lib/klay.js"></script>
+  <script type="text/javascript" src="lib/klayjs-d3-ww.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    #content {
+      margin-top: 5px;
+    }
+    
+    dl {
+      margin-bottom: 5px;
+    }
+    
+    g.leaf > rect {
+      stroke: #fff;
+      stroke-width: 1px;
+      opacity: .5;
+    }
+    
+    g.leaf > text {
+      fill: #ffffff;
+    }
+  
+    g.compound > rect {
+      opacity: 0.1;
+    }
+    
+    .node {
+    }
+    
+    .link {
+      stroke: #999;
+      stroke-opacity: .6;
+      fill: none;
+    }
+    
+    .port {
+      stroke: #000;
+      width: 1px;
+      opacity: .6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Klay.js-D3 Layout Example</h1>
+    <ul>
+     
+      <dt>Automatic</dt>
+      <dl>
+        The algorithm can position every node and edge as it likes.
+      </dl>
+      
+      <dt>Layer Preserving</dt>
+      <dl>
+        In a top-to-bottom layout, a <em>layer</em> is a row in which nodes are placed. 
+        No pair of connected nodes is allowed to be placed in the same layer.
+        After layer preserving layout n6 remains above n3 even though the edge points upwards.
+        The order of the nodes is not preserved though, whereby n6 is on the left of n1 after layout.
+      </dl>
+
+    </ul>
+      
+
+    <button onclick="layout();">Automatic</button>
+    <button onclick="layoutLayerPreserve();">Layer Preserving</button>
+
+    <div id="content">
+      <script type="text/javascript" src="js/index.js"></script>
+    </div>
+  </div>
+</body></html>
