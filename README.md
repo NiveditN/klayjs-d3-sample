@@ -1,2 +1,2 @@
 # klayjs-d3-sample
-Data visulaization sample using klay.js and D3
+Data visualization sample using klay.js and D3
